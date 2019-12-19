@@ -1,0 +1,7 @@
+#FoodHolder {
+  background: -webkit-gradient(linear, right top, left bottom, from(#df1616), to(#04ca99)), url("/Media/Rainbow Bridge.jpg");
+  background: linear-gradient(to left bottom, #df1616, #04ca99), url("/Media/Rainbow Bridge.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=background.css.map */
