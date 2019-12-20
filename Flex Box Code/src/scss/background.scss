@@ -1,11 +1,10 @@
 #FoodHolder{
-
-     background: linear-gradient(
-        to left bottom,
-      rgb(223, 22, 22),
-      rgb(4, 202, 153)
-        ),
-        url('/Media/Rainbow\ Bridge.jpg');
-        background-size: cover;
-        background-position: center;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(62, 29, 139, 0.664),
+    rgba(228, 2, 2, 0.815)
+    ),
+    url('/Media/Rainbow\ Bridge.jpg');
+    background-size: cover;
+    background-position: center;
 }
