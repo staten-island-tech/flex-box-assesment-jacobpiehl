@@ -1,0 +1,6 @@
+.holder {
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff0707), to(rgba(18, 14, 255, 0.815)));
+  background: linear-gradient(to right bottom, #ff0707, rgba(18, 14, 255, 0.815));
+  background-image: url("Media/Bridge.jpg");
+}
+/*# sourceMappingURL=style.css.map */
