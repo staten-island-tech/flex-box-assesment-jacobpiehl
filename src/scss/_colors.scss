@@ -1,0 +1,8 @@
+$colors: (
+    firstcolor: #061efce7,
+    secondcolor: #af0bd8,
+    sooshi: #04e9e9
+);
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}

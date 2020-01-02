@@ -1,9 +1,10 @@
+@import "./setup";
+@import "./colors";
+
 .holder{
-  background: linear-gradient(
-        to right bottom,
-        rgb(255, 7, 7),
-        rgba(18, 14, 255, 0.815)
-        ),
-;
+  background-color: color(secondcolor);
   background-image: url("Media/Bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
 }

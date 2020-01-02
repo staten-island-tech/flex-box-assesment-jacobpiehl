@@ -1,0 +1,7 @@
+#FoodHolder {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(62, 29, 139, 0.664)), to(rgba(228, 2, 2, 0.815))), url("media/Bridge.jpg");
+  background-image: linear-gradient(to right bottom, rgba(62, 29, 139, 0.664), rgba(228, 2, 2, 0.815)), url("media/Bridge.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=background.css.map */

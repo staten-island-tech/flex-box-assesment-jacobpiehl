@@ -1,6 +1,17 @@
+html {
+  font-family: 'Ma Shan Zheng', cursive;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 500%;
+}
+
 .holder {
-  background: -webkit-gradient(linear, left top, right bottom, from(#ff0707), to(rgba(18, 14, 255, 0.815)));
-  background: linear-gradient(to right bottom, #ff0707, rgba(18, 14, 255, 0.815));
+  background-color: #af0bd8;
   background-image: url("Media/Bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
 }
 /*# sourceMappingURL=background.css.map */
