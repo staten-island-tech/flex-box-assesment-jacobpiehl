@@ -4,14 +4,14 @@ html {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 500%;
+  font-size: 62.5%;
 }
 
 .holder {
-  background-color: #af0bd8;
-  background-image: url("Media/Bridge.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#061efce7), to(#af0bd8)), url("Media/Bridge.jpg");
+  background-image: linear-gradient(to right bottom, #061efce7, #af0bd8), url("Media/Bridge.jpg");
   background-size: cover;
   background-position: center;
-  height: 1000px;
+  height: 100rem;
 }
 /*# sourceMappingURL=background.css.map */

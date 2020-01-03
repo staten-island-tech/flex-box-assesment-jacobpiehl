@@ -2,9 +2,13 @@
 @import "./colors";
 
 .holder{
-  background-color: color(secondcolor);
-  background-image: url("Media/Bridge.jpg");
+  background-image: linear-gradient(
+    to right bottom,
+    color(firstcolor),
+    color(secondcolor)
+  ),
+  url("Media/Bridge.jpg");
   background-size: cover;
   background-position: center;
-  height: 1000px;
+  height: 100rem;
 }
