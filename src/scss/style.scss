@@ -6,21 +6,26 @@
     justify-content: center;
 }
 .description {
+    padding: 10rem;
     display: flex;
-    justify-content: center;
+    align-self: flex-start;
     font-size: 3rem;
 }
 
 .description:hover {
     font-style: italic;
     color: color(firstcolor);
-    filter: drop-shadow(2rem, 2rem, 2rem, rgba(0, 0, 0, 0.842) );
 }
 
 .first {
     width: 30rem;
     height: 30rem;
 }
+
+.first:hover {
+    filter: opacity(30%);
+}
+
 
 .second {
     width: 30rem;
@@ -30,11 +35,20 @@
     width: 30rem;
     height: 30rem;
 }
+
+.second:hover {
+    filter: opacity(30%);
+}
+
+.third:hover {
+    filter: opacity(30%);
+
+}
 .column {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    
-
 }
+
+
