@@ -4,11 +4,18 @@
 .holder{
   background-image: linear-gradient(
     to right bottom,
-    color(firstcolor),
-    color(secondcolor)
+    color(snakejazz),
+    color(north)
   ),
-  url("Media/Bridge.jpg");
+  url("Media/Japanese\ Background.jpg");
   background-size: cover;
   background-position: center;
   height: 100rem;
+
+
+}
+.description {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
 }

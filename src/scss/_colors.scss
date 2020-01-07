@@ -1,7 +1,9 @@
 $colors: (
-    firstcolor: #061efce7,
+    firstcolor: #001aff62,
     secondcolor: #af0bd8,
-    sooshi: #04e9e9
+    sooshi: #04e9e9,
+    snakejazz: #e02a0a7c,
+    north: #e98b1186
 );
 @function color($color-name) {
     @return map-get($colors, $color-name);

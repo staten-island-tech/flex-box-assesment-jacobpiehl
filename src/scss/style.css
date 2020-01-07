@@ -8,11 +8,21 @@ html {
 }
 
 .holder {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#061efce7), to(#af0bd8)), url("Media/Bridge.jpg");
-  background-image: linear-gradient(to right bottom, #061efce7, #af0bd8), url("Media/Bridge.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e02a0a7c), to(#e98b1186)), url("Media/Japanese Background.jpg");
+  background-image: linear-gradient(to right bottom, #e02a0a7c, #e98b1186), url("Media/Japanese Background.jpg");
   background-size: cover;
   background-position: center;
   height: 100rem;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: italic;
 }
 
 #head {
