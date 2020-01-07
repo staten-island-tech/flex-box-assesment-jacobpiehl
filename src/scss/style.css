@@ -12,17 +12,8 @@ html {
   background-image: linear-gradient(to right bottom, #e02a0a7c, #e98b1186), url("Media/Japanese Background.jpg");
   background-size: cover;
   background-position: center;
-  height: 100rem;
-}
-
-.description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-style: italic;
+  height: 500rem;
+  position: relative;
 }
 
 #head {
@@ -33,5 +24,28 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: italic;
+  font-size: 3rem;
+}
+
+#column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */

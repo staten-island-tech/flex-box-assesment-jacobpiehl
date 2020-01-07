@@ -12,16 +12,7 @@ html {
   background-image: linear-gradient(to right bottom, #e02a0a7c, #e98b1186), url("Media/Japanese Background.jpg");
   background-size: cover;
   background-position: center;
-  height: 100rem;
-}
-
-.description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-style: italic;
+  height: 500rem;
+  position: relative;
 }
 /*# sourceMappingURL=background.css.map */
