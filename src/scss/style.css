@@ -38,7 +38,7 @@ html {
 
 .description:hover {
   font-style: italic;
-  color: #001aff62;
+  color: #00098d;
 }
 
 .first {
@@ -101,15 +101,17 @@ html {
 }
 
 .flexholder {
-  width: 100rem;
-  height: 100rem;
+  width: 110rem;
+  height: 110rem;
   position: relative;
 }
 
 #morning {
+  padding: 5rem;
+  width: 90rem;
+  height: 50rem;
   z-index: 2;
   position: absolute;
   left: 50%;
-  right: 50%;
 }
 /*# sourceMappingURL=style.css.map */
