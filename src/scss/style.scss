@@ -9,7 +9,8 @@
     padding: 10rem;
     display: flex;
     align-self: flex-start;
-    font-size: 3rem;
+    font-size: 2rem;
+
 }
 
 .description:hover {
@@ -46,6 +47,7 @@
 }
 .column {
     display: flex;
+    justify-content: flex-start;
     justify-content: space-around;
     align-items: center;
 
@@ -59,4 +61,16 @@
     align-content: center;
 }
 
+.flexholder {
+    width: 100rem;
+    height: 100rem;
+    position: relative;
+}
+
+#morning {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
 

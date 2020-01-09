@@ -33,7 +33,7 @@ html {
   display: flex;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .description:hover {
@@ -75,6 +75,9 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -95,5 +98,18 @@ html {
       justify-content: space-around;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.flexholder {
+  width: 100rem;
+  height: 100rem;
+  position: relative;
+}
+
+#morning {
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  right: 50%;
 }
 /*# sourceMappingURL=style.css.map */
