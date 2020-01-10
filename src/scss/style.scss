@@ -65,43 +65,43 @@
     width: 110rem;
     height: 110rem;
     position: relative;
-
-}
-
-.mainholder {
     display: flex;
     flex-direction: column;
-    align-items: space-around;
+    align-items: flex-start;
+
 }
+
 
 .firstholder {
     position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     z-index: 2;
 }
 
 #fourth {
     width: 30rem;
-    height: 39rem;
+    height: 35rem;
+    padding: 1rem;
 
 
 }
 
 #fifth {
     width: 30rem;
-    height: 39rem;
+    height: 35rem;
+    padding: 1rem;
 }
 
 #sixth {
     width: 30rem;
-    height: 39rem;
+    height: 35rem;
+    padding: 1rem;
 }
     
 
 .container {
-    position: absolute;
     width: 90rem;
-    height: 39rem;
+    height: 35rem;
+    position: absolute;
 }
