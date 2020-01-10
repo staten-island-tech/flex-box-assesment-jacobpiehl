@@ -1,5 +1,5 @@
 @import "./setup";
-@import "./colors";
+@import "./color";
 
 .holder{
   background-image: linear-gradient(
@@ -7,7 +7,7 @@
     color(see),
     color(rose)
   ),
-  url("Media/Better\ Japanese\ Art.jpg");
+  url("");
   background-size: cover;
   background-position: center;
   height: 200rem;

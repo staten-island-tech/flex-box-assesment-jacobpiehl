@@ -3,12 +3,12 @@
       {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "/dist/css"
+        "savePath": "/Everything About My Intelligence is Trash/dist/css"
       },
       {
         "extensionName": ".min.css",
         "format": "compressed",
-        "savePath": "/src/scss"
+        "savePath": "/Everything About My Intelligence is Trash/src/scss"
       }
     ],
     "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
