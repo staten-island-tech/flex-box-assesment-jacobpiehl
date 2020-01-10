@@ -4,7 +4,10 @@ $colors: (
     sooshi: #04e9e9,
     snakejazz: #e02a0a7c,
     north: #e98b1186,
-    a: #00098d
+    a: #00098d,
+    rose: #e995b5,
+    Monoblos: #ff0000,
+    see:#ffffff57
 );
 @function color($color-name) {
     @return map-get($colors, $color-name);

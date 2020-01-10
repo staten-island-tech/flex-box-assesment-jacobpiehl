@@ -8,8 +8,8 @@ html {
 }
 
 .holder {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#e02a0a7c), to(#e98b1186)), url("Media/Japanese Background.jpg");
-  background-image: linear-gradient(to right bottom, #e02a0a7c, #e98b1186), url("Media/Japanese Background.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff57), to(#e995b5)), url("Media/Better Japanese Art.jpg");
+  background-image: linear-gradient(to right bottom, #ffffff57, #e995b5), url("Media/Better Japanese Art.jpg");
   background-size: cover;
   background-position: center;
   height: 200rem;
@@ -100,18 +100,57 @@ html {
       align-content: center;
 }
 
-.flexholder {
+.Wave {
   width: 110rem;
   height: 110rem;
   position: relative;
 }
 
-#morning {
-  padding: 5rem;
-  width: 90rem;
-  height: 50rem;
-  z-index: 2;
+.mainholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+}
+
+.firstholder {
   position: absolute;
-  left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 2;
+}
+
+#fourth {
+  width: 30rem;
+  height: 39rem;
+}
+
+#fifth {
+  width: 30rem;
+  height: 39rem;
+}
+
+#sixth {
+  width: 30rem;
+  height: 39rem;
+}
+
+.container {
+  position: absolute;
+  width: 90rem;
+  height: 39rem;
 }
 /*# sourceMappingURL=style.css.map */

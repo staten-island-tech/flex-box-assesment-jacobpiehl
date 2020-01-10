@@ -8,8 +8,8 @@ html {
 }
 
 .holder {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#e02a0a7c), to(#e98b1186)), url("Media/Japanese Background.jpg");
-  background-image: linear-gradient(to right bottom, #e02a0a7c, #e98b1186), url("Media/Japanese Background.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff57), to(#e995b5)), url("Media/Better Japanese Art.jpg");
+  background-image: linear-gradient(to right bottom, #ffffff57, #e995b5), url("Media/Better Japanese Art.jpg");
   background-size: cover;
   background-position: center;
   height: 200rem;
