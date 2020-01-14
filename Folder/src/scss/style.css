@@ -8,8 +8,8 @@ html {
 }
 
 .holder {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff57), to(#e995b5)), url("");
-  background-image: linear-gradient(to right bottom, #ffffff57, #e995b5), url("");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff57), to(#e995b5)), url("Media/Cherry Blossom GIF.gif");
+  background-image: linear-gradient(to right bottom, #ffffff57, #e995b5), url("Media/Cherry Blossom GIF.gif");
   background-size: cover;
   background-position: center;
   height: 200rem;
