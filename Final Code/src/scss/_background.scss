@@ -1,0 +1,18 @@
+@import "./setup";
+@import "./colors" ;
+
+
+.holder{
+    background-image: linear-gradient(
+      to right bottom,
+      color(see),
+      color(rose)
+    ),
+    url("Media/Better\ Japanese\ Art.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200rem;
+    position: relative;
+  
+  
+  }

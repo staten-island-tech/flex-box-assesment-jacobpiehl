@@ -1,0 +1,109 @@
+@import "./background";
+
+#head {
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.description {
+  padding: 10rem;
+  display: flex;
+  align-self: flex-start;
+  font-size: 2rem;
+
+}
+
+.description:hover {
+  font-style: italic;
+  color: color(a);
+}
+
+.first {
+  width: 30rem;
+  height: 30rem;
+}
+
+.first:hover {
+  filter: opacity(30%);
+}
+
+
+.second {
+  width: 30rem;
+  height: 30rem;
+}
+.third {
+  width: 30rem;
+  height: 30rem;
+}
+
+.second:hover {
+  filter: opacity(30%);
+}
+
+.third:hover {
+  filter: opacity(30%);
+  
+}
+.column {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.papaflex {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.mainholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstholder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 2;
+}
+
+#fourth {
+  width: 30rem;
+  height: 35rem;
+  padding: 1rem;
+
+
+}
+
+#fifth {
+  width: 30rem;
+  height: 35rem;
+  padding: 1rem;
+}
+
+#sixth {
+  width: 30rem;
+  height: 35rem;
+  padding: 1rem;
+}
+  
+
+.container {
+  width: 70rem;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+}
+
+.another {
+  font-size: 5rem;
+  color: rgb(8, 4, 63);
+  z-index: 3;
+}
